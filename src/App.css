@@ -1,0 +1,38 @@
+.object-1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.object-2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.intro--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#intro--header {
+  margin-bottom: 4px;
+}
+
+#intro--description {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+#intro--button {
+  width: 193px;
+  height: 52px;
+  background: #4d5b9e;
+  color: #f5f7fb;
+  border: none;
+  border-radius: 15px;
+}
